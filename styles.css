@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tela-principal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.25rem;
+  width: 50rem;
+}
+
+.tela-principal h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 9.43rem;
+  text-align: left;
+}
+
+button {
+  width:29.93rem;
+  height: 3.18rem;
+  border-radius: 3.12rem;
+  font-size: 2.25rem;
+  color: black;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+button a:hover {
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgb(11, 11, 177);
+  border: none;
+}
+
+.div-img img {
+  width: 15.25rem;
+  height: 6.18rem;
+  display: flex;
+  margin: 0 0 0 50rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .tela-principal {
+    width: 63.75rem;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .tela-principal h1 {
+    width: 63.75rem;
+    font-size: 6.25rem;
+    text-align: center;
+  }
+
+  button {
+    margin-top: 3.12rem;
+  }
+
+  .div-img img {
+    width: 12.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tela-principal {
+    width: 26.56rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0.62rem;
+  }
+
+  .tela-principal h1 {
+    font-size: 3.75rem;
+    width: 26.56rem;
+  }
+
+  button {
+    width: 18.75rem;
+    font-size: 1.5rem;
+  }
+
+  .div-img {
+    margin: 0.62rem auto;
+    text-align: center;
+  }
+}

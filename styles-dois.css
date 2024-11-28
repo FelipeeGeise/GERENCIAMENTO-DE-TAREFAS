@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(206, 240, 229);
+}
+
+main {
+  display: flex;
+  margin: 6.25rem auto;
+  border-radius: 1.25rem;
+}
+
+.main-principal {
+  width: 40.62rem;
+  height: 36.5rem;
+  background-color: #fff;
+}
+
+.main-principal h1 {
+  margin: 1.25rem 0 0 1.87rem;
+  font-size: 2.5rem;
+}
+
+#input-button {
+  margin: 1.87rem 0 0px 3.12rem;
+}
+
+input {
+  width: 31.25rem;
+  height: 3.12rem;
+  border-radius: 0.62rem;
+  border: 0.062rem solid #efeaea;
+  margin-bottom: 3.12rem;
+  padding-left: 0.62rem;
+  font-size: 1.12rem;
+}
+input[type="checkbox"] { 
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.31rem;
+    margin-top: 3.12rem;
+}
+
+li.completed { 
+
+text-decoration: line-through; color: #999; }
+
+#adicionar {
+  width: 2.81rem;
+  height: 2.81rem;
+  background-color: #2d70fd;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.62rem;
+  cursor: pointer;
+  font-size: 1.12rem;
+}
+
+#adicionar:hover {
+  opacity: 0.8;
+}
+
+li {
+  background-color: #efeaea;
+  padding: 0.62rem;
+  margin: 0.62rem auto;
+  border-radius: 0.31rem;
+  color: #001747;
+  font-weight: bold;
+  height: 5rem;
+  font-size: 1.12rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li div {
+  width: 6.25rem;
+  height: 2.10rem;
+  background-color: #2d70fd;
+  color: #fff;
+  border-radius: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  cursor: pointer;
+}
+
+span:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  #texto {
+    
+    width: 64rem;
+  }
+
+  .main-principal h1 {
+    font-size: 1.87rem;
+  }
+
+  input {
+    width: 31.68rem;
+    height: 3.43rem;
+  }
+
+  li {
+    width: 34.37rem;
+    height: 4.06rem;
+    font-size: 0.87rem;
+    margin-right: 3.12rem;
+  }
+
+  li div {
+    width: 6.25rem;
+    height: 1.87rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .main-principal{
+        width: 26.56rem;
+        padding: 0 0.62rem;
+        
+    }
+  #texto {
+    width: 26.56rem;
+   
+  }
+  .main-principal h1 {
+    font-size: 1.56rem;
+    margin-bottom: 0.62rem;
+  }
+
+  input {
+    width: 25rem;
+    height: 2.5rem;
+    margin-bottom: 0.62rem;
+    font-size: 0.87rem;
+  }
+
+  #input-button{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
+    margin: 0.62rem auto;
+  }
+
+  li div {
+    width: 4.68rem;
+    height: 1.56rem;
+    
+  }
+
+  #adicionar {
+    width: 25rem;
+    height:2.5rem ;
+    margin-bottom: 0.62rem;
+  }
+
+  input[type="checkbox"] { 
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.31rem;
+    margin-top: 0.62rem;}
+
+   
+}
